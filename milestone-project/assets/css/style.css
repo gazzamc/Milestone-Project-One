@@ -13,6 +13,13 @@ header .container {
     margin: 5px 0 0 0;
 }
 
+/***** Colors *****/
+
+h2 {
+    color: #e63900;
+    margin: 2%;
+}
+
 /* Header */
 
 .bgImg {
@@ -95,15 +102,39 @@ header .container {
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    background-color: rgba(0,0,0, 0.2);
+    background-color: rgba(0,0,0, 0.4);
     width: 30%;
     color: white;
     padding: 5%;
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar-dark .navbar-nav .nav-link {
-    width: 12%;
-    padding: 1%;
+    .navbar-dark .navbar-nav .nav-link {
+        width: 12%;
+        padding: 1%;
+    }
 }
+
+/***** Classes Section *****/
+
+.bgClassImg{
+    background: url("../images/gym-room.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Opacity */
+
+.opacityShade {
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    height:inherit;
+    width: 100%;
+    z-index: 1;
+}
+
+.elementOverShade {
+    position: relative;
+    z-index: 10;
 }

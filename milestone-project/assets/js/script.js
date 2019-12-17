@@ -1,3 +1,5 @@
+/** Modal Response */
+
 $("button#contactBtn").click(function () {
     var name = $("#name").val();
     var query = $("#textArea").val();
@@ -18,4 +20,19 @@ $("button#contactBtn").click(function () {
 
 $("button#modelBtn").add(".close").click(function () {
     $(".modal").hide();
+});
+
+/** Remove class under tablet width to prevent breaking of layout */
+
+$(window).resize(function(){
+
+    if($(window).width() < 768){
+
+        $("#classes").removeClass("bgClassImg");
+
+    } else if ($(window).width() >= 768){
+
+        $("#classes").addClass("bgClassImg");
+
+    }
 });
