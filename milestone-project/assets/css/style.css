@@ -3,10 +3,8 @@
 body {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-}
-
-.container {
-    margin-top: 5vh;
+    margin: 0;
+    padding: 0;
 }
 
 header .container {
@@ -151,6 +149,12 @@ form .btn {
     padding: 2% 0 2% 0;
 }
 
+button.btn.btn-primary.btn-sm {
+    color: #fff;
+    background-color: #e63900;
+    border-color: #000;
+}
+
 @media only screen and (min-width: 992px){
     .bgClassImg .container .row{
         padding-top: 5vh;
@@ -188,6 +192,18 @@ form .btn {
 
 .bgContactImg .container .row {
     padding-top: 5vh;
+}
+
+/***** Footer Section *****/
+
+.fab {
+    padding: 15px;
+    font-size: 3em;
+    color: #e63900;
+}
+
+footer.container{
+    background-color: #000;
 }
 
 /* Opacity */
