@@ -128,10 +128,14 @@ form .btn {
 
 /***** Testamonial Section *****/
 
+.testamonials h2 {
+    padding: 2% 0 2% 0;
+}
+
 @media only screen and (min-width: 768px){
     .testamonials{
         height: 50vh;
-        padding-top: 5vh;
+        padding-top: 3vh;
     }
 }
 
@@ -143,9 +147,17 @@ form .btn {
     height: 100vh;
 }
 
-@media only screen and (min-width: 1024px){
+.bgClassImg .container h2 {
+    padding: 2% 0 2% 0;
+}
+
+@media only screen and (min-width: 992px){
     .bgClassImg .container .row{
-        padding-top: 20%;
+        padding-top: 5vh;
+    }
+
+    .bgClassImg .container h2 {
+        padding-top: 10vh;
     }
 }
 
@@ -156,6 +168,10 @@ form .btn {
         height: 50vh;
         padding-top: 5vh;
     }
+}
+
+.about h2 {
+    margin-bottom: 5%;
 }
 
 /***** Contact Section *****/
