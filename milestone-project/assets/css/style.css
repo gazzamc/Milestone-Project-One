@@ -17,6 +17,8 @@ body {
     height: 100vh;
 }
 
+/***** Jumbotron *****/
+
 .jumbotron {
     position: relative;
     background-color: transparent;
@@ -31,17 +33,36 @@ body {
     color: #e63900;
     font-weight: 700;
     font-size: 4em;
-    top: 20%;
+    padding-top: 20vh;
 }
 
 .jumbotron .lead {
     position: relative;
     color: white;
-    width: 30vw;
+    width: 50vw;
     text-align: center;
     word-spacing: 0.5em;
     text-shadow: none;
-    top: 20vh;
+    padding-top: 2%;
+}
+
+/*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (orientation:landscape) {
+    .jumbotron .page-header {
+        padding-top: 2%;
+    }
+
+    .jumbotron .lead {
+        padding-top: 2%;
+    }
+}
+
+.jumbotron .leadBtn .btn {
+    font-weight: 200;
+    color:#fff;
+    word-spacing: 0;
+    background-color: #e63900;
+    border: none; 
 }
 
 .jumbotron .lead .jumboSpan {
@@ -49,9 +70,10 @@ body {
     width: 30vw;
 }
 
-.jumbotron .btn {
-    color:#fff;
-    word-spacing: 0;
-    background-color: #e63900;
-    border: none;
-}
+/***** Navbar *****/
+
+ .navbar-toggler:focus, 
+ .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
