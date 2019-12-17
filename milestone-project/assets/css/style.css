@@ -14,7 +14,6 @@ body {
 .bgImg {
     background: url("../images/girl_back.jpg") no-repeat center center fixed;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -24,6 +23,7 @@ body {
     height: 100vh;
     text-shadow: 1px 1px white;
     padding-left: 7%;
+    overflow: hidden;
 }
 
 .jumbotron .page-header {
