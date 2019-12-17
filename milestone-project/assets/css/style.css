@@ -9,6 +9,10 @@ body {
     margin-top: 5vh;
 }
 
+header .container {
+    margin: 5px 0 0 0;
+}
+
 /* Header */
 
 .bgImg {
@@ -39,15 +43,13 @@ body {
 .jumbotron .lead {
     position: relative;
     color: white;
-    width: 50vw;
-    text-align: center;
+    width: 55vw;
     word-spacing: 0.5em;
     text-shadow: none;
-    padding-top: 2%;
 }
 
 /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-@media only screen and (orientation:landscape) {
+@media only screen and (orientation:landscape) and (max-width: 1200px){
     .jumbotron .page-header {
         padding-top: 2%;
     }
@@ -63,6 +65,10 @@ body {
     word-spacing: 0;
     background-color: #e63900;
     border: none; 
+}
+
+.jumbotron .leadBtn {
+    padding-top: 2%;
 }
 
 .jumbotron .lead .jumboSpan {
@@ -93,4 +99,11 @@ body {
     width: 30%;
     color: white;
     padding: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-dark .navbar-nav .nav-link {
+    width: 12%;
+    padding: 1%;
+}
 }
