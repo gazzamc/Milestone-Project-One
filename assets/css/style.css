@@ -166,13 +166,13 @@ form .btn:active {
     padding: 2% 0 0 0;
 }
 
-button.btn.btn-primary.btn-sm {
+.bgClassImg .container .card .btn.btn-primary.btn-sm {
     color: #fff;
     background-color: #e63900;
     border-color: #000;
 }
 
-button.btn.btn-primary.btn-sm:active {
+.bgClassImg .container .card .btn.btn-primary.btn-sm:active {
     color: #fff;
     background-color: #000;
 }
