@@ -18,8 +18,12 @@
 
 - [Bootstrap](https://getbootstrap.com/)
     - I used **Bootstrap** in my project for it's grid system to create the basic layout of the site. I also used the navbar, modal, buttons, cards and the built-in carousel.
+
 - [JQuery](https://jquery.com)
     - I used **JQuery** to hide/show the modal when interacting with the form and do a simple validation. It's also used to add/remove classes depending on screen size.
+
+- [FontAwesome](https://fontawesome.com/)
+    - My social media icons were from FontAwesome.
 
 
 ## Testing
@@ -30,6 +34,9 @@
 
 ### Content
 - The text for the about us section was copied and modified from [PureGym - About Us Section](https://www.puregym.com/about-us/)
+- The text for the classes summary was copied from [Gym Plus](https://gymplus.ie/classes-at-gymplus/) and [westpark.ie](https://www.westpark.ie/class/cardio-kickboxing/)
+- The text for two of the Testamonials was copied from [corevaluefitness](http://www.corevaluefitness.com.au/testimonials)
+- The text for one of the Testamonials was copied and modified from [bhaf.ie](https://www.bhaf.ie/testimonials)
 
 ### Media
 - The photos used in this site were obtained from [PixaBay](https://pixabay.com/) and [UnSplash](https://unsplash.com/).
