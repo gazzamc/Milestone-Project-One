@@ -1,48 +1,54 @@
-/** Modal Response */
+$(document).ready(function(){
 
-$("button#contactBtn").click(function () {
-    var name = $("#name").val();
-    var query = $("#textArea").val();
-    var hasSign = $('#email').val().match(/\@/);
+    /** Modal Response */
 
-    //https://stackoverflow.com/questions/2021053/finding-plus-sign-in-regular-expression
-    //https://regexr.com/
+    $("button#contactBtn").click(function () {
+        var name = $("#name").val();
+        var query = $("#textArea").val();
+        var hasSign = $('#email').val().match(/\@/);
 
-    if (name != undefined && query != undefined && hasSign) {
-        $(".modal").show();
+        //https://stackoverflow.com/questions/2021053/finding-plus-sign-in-regular-expression
+        //https://regexr.com/
 
-        $("#name").val("");
-        $("#textArea").val("");
-        $("#email").val("");    
-    }
+        if (name != undefined && query != undefined && hasSign) {
+            $(".modal").show();
 
-});
+            $("#name").val("");
+            $("#textArea").val("");
+            $("#email").val("");    
+        }
 
-$("button#modelBtn").add(".close").click(function () {
-    $(".modal").hide();
-});
+    });
 
-/** Remove class under tablet width to prevent breaking of layout */
+    $("button#modelBtn").add(".close").click(function () {
+        $(".modal").hide();
+    });
 
-$(window).resize(function(){
+    /** Remove class under tablet width to prevent breaking of layout */
 
-    if($(window).width() < 768){
+        $(window).resize(function(){
 
-        $("#classes").removeClass("bgClassImg");
+            if($(window).width() < 768){
 
-    } else if ($(window).width() >= 768){
+                $("#classes").removeClass("bgClassImg");
 
-        $("#classes").addClass("bgClassImg");
+            } else if ($(window).width() >= 768){
 
-    }
+                $("#classes").addClass("bgClassImg");
 
-    if($(window).width() < 425){
+            }
 
-        $(".about .row div.col-6").removeClass("col-6");
+            if($(window).width() < 425){
 
-    } else if ($(window).width() >= 425){
+                $(".about .row div.col-6").removeClass("col-6");
 
-        $(".about .row div.col-sm-6").addClass("col-6");
+            } else if ($(window).width() >= 425){
 
-    }
+                $(".about .row div.col-sm-6").addClass("col-6");
+
+            }
+    });
+
+    $(window).resize();
+
 });
