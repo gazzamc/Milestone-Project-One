@@ -35,4 +35,14 @@ $(window).resize(function(){
         $("#classes").addClass("bgClassImg");
 
     }
+
+    if($(window).width() < 425){
+
+        $(".about .row div.col-6").removeClass("col-6");
+
+    } else if ($(window).width() >= 425){
+
+        $(".about .row div.col-sm-6").addClass("col-6");
+
+    }
 });
