@@ -28,6 +28,11 @@ form .btn {
     background-color: #e63900;
 }
 
+form .btn:active {
+    color:#fff;
+    background-color: #000;
+}
+
 /* Header */
 
 .bgImg {
@@ -80,6 +85,13 @@ form .btn {
     word-spacing: 0;
     background-color: #e63900;
     border: none; 
+}
+
+.jumbotron .leadBtn .btn:active {
+    font-weight: 200;
+    color:#fff;
+    word-spacing: 0;
+    background-color: #000;
 }
 
 .jumbotron .leadBtn {
@@ -153,6 +165,11 @@ button.btn.btn-primary.btn-sm {
     color: #fff;
     background-color: #e63900;
     border-color: #000;
+}
+
+button.btn.btn-primary.btn-sm:active {
+    color: #fff;
+    background-color: #000;
 }
 
 @media only screen and (min-width: 992px){
