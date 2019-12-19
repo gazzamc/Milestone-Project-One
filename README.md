@@ -7,8 +7,11 @@ classes currently running at the gym, the gyms address and opening times as well
 ## Demo
 You can try the live version of the website [Here](https://gazzamc.github.io/Milestone-Project-One/)
 
+![Hercules Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/HerculesPreview.gif?raw=true "Hercules Preview")
 ## UX
-As an existing member, I expect to see currently running classes.
+
+#### User Stories
+As an existing member, I expect to see currently running classes.  
 As a new member, I expect to see the gyms address, opening hours.
 
 ## Features
