@@ -1,12 +1,20 @@
 # Hercules Gym
- 
+User-Centric Frontend Development Project - Code Institute
+
+This is a gym website for new and existing members. It has testamonials from existing members, 
+classes currently running at the gym, the gyms address and opening times as well as a contact form for any other queries/information.
+
 ## UX
+As an existing member, I expect to see currently running classes.
+As a new member, I expect to see the gyms address, opening hours.
 
 ## Features
  
 ### Existing Features
 
 ### Features Left to Implement
+In the future I would like to add a seperate section for the payment plans, 
+breakdown of the membership and any other commodities the gym provides to it's members.
 
 ## Technologies Used
 
@@ -29,6 +37,26 @@
 ## Testing
 
 ## Deployment
+The website was deployed/hosted on GitHub pages, the following is the process in which i took to deploy it.
+
+#### GitHub Pages
+
+1. On the repo page of the project go to "Settings" tab.
+2. Scroll down to GitHub pages.
+3. Select "Master Branch" under the source dropdown.
+4. A link to the deployed site should show up under the GitHub Pages section.
+
+The master branch should be the root folder with the index.html present for the deployment to work correctly. 
+Any changes pushed to GitHub will be updated on the deployed site.
+
+#### Locally
+To run the website from your local machine you can clone the project using the below command.
+
+```
+    git clone https://github.com/gazzamc/Milestone-Project-One.git
+```
+Then open index.html in your browser of choice.
+
 
 ## Credits
 
