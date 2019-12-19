@@ -4,18 +4,28 @@ User-Centric Frontend Development Project - Code Institute
 This is a gym website for new and existing members. It has testamonials from existing members, 
 classes currently running at the gym, the gyms address and opening times as well as a contact form for any other queries/information.
 
+## Demo
+You can try the live version of the website [Here](https://gazzamc.github.io/Milestone-Project-One/)
+
 ## UX
 As an existing member, I expect to see currently running classes.
 As a new member, I expect to see the gyms address, opening hours.
 
 ## Features
- 
-### Existing Features
+I combined bootstraps carousel and cards to create a dynamic testamonial section. 
+The cards alternate every few seconds and i think it brings a bit of variation to the website.
+
+My navbar remains a hamburger button on all resolutions as I think it fits the design better,
+It's also fixed to the top left of the screen so navigating back to the landing section or any other part of the site is easier.
+
+I have a contact form with validation using both HTML/jQuery so the users can contact the gym.
 
 ### Features Left to Implement
 In the future I would like to add a seperate section for the payment plans, 
 breakdown of the membership and any other commodities the gym provides to it's members.
 
+I would also like to extend the jQuery validation in the form to check for the email pattern (@ sign and ending domain), 
+Right now i'm only using regex to check for a valid input with a @ sign in the email field.
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -35,6 +45,27 @@ breakdown of the membership and any other commodities the gym provides to it's m
 
 
 ## Testing
+I used the user stories above to ensure i had the necessary information a potential user could be searching for on my website.
+
+I tested my website in a few browsers(Chrome, Firefox, and Edge) as well as using their built-in dev tools to change resolutions/device templates. 
+This allowed me to correct any misalignments or overlapping elements using @media querys. 
+On top of testing the website on different browsers i also used a few different devices. 
+Two Android phones (One Plus 6t, Samsung Galaxy 7), two tablets (Fire HD 8, Windows tablet), a laptop and two seperate desktops.
+
+#### Contact form:
+To test the verification on the form (required attribute), 
+I tried to submit the form with each field filled once, then two and finally all fields without a proper email format.
+
+Once I knew this form was working with the standard HTML validation I then tested with my jQuery validation. Since I'm using a modal
+to display a message on successfully sending the form 
+I needed to validate all fields again in jQuery to prevent the modal from showing on button click (with invalid input). Unfortunely the 
+validation is very simple and only checks for empty fields in both text inputs and the @ sign in the email field. 
+
+The regex i used for validation only checks for the @ sign in the email field, so there is an issue where the modal will show but not
+pass the HTML validation.
+
+I also tested all links with target "_blank" to see if they did in fact open in a new tab and tested 
+the navigation links to see if they brought me to the corresponding section.
 
 ## Deployment
 The website was deployed/hosted on GitHub pages, the following is the process in which i took to deploy it.
