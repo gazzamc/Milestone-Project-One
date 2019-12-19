@@ -68,6 +68,8 @@ pass the HTML validation.
 I also tested all links with target "_blank" to see if they did in fact open in a new tab and tested 
 the navigation links to see if they brought me to the corresponding section.
 
+I had an issue with my jQuery not loading and was able to fix it my first calling the function.
+
 ## Deployment
 The website was deployed/hosted on GitHub pages, the following is the process in which i took to deploy it.
 
@@ -112,4 +114,11 @@ Then open index.html in your browser of choice.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- In order to get the regex working in jQuery i used this example from 
+[Here](https://stackoverflow.com/questions/2021053/finding-plus-sign-in-regular-expression),
+and this useful website for testing regex [Here](https://regexr.com/).
+
+- Fixed an issue with my jQuery where it wasn't firing on first load, was fixed using this example 
+[Here](https://stackoverflow.com/questions/26524096/check-browser-width-after-resize-without-reload-javascript).
+
+- Changed the hamburger toggler colour using this example [Here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
