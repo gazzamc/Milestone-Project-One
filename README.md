@@ -18,7 +18,8 @@ The cards alternate every few seconds and i think it brings a bit of variation t
 My navbar remains a hamburger button on all resolutions as I think it fits the design better,
 It's also fixed to the top left of the screen so navigating back to the landing section or any other part of the site is easier.
 
-I have a contact form with validation using both HTML/jQuery so the users can contact the gym.
+I have a contact form with validation using both HTML/jQuery so the users can contact the gym. I also added a confirmation
+message with a modal after submitting the contact form.
 
 ### Features Left to Implement
 In the future I would like to add a seperate section for the payment plans, 
