@@ -68,6 +68,12 @@ form .btn:active {
     text-shadow: none;
 }
 
+@media only screen and (min-width: 320px){
+    .jumbotron .page-header {
+        padding-top: 10vh;
+    }
+}
+
 /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 @media only screen and (orientation:landscape) and (max-width: 1200px){
     .jumbotron .page-header {
@@ -222,6 +228,12 @@ p.address {
 
 .bgContactImg .container .row {
     padding-top: 5vh;
+}
+
+@media only screen and (min-width: 320px){
+    .bgContactImg .container h2 {
+        padding-top: 10vh;
+    }
 }
 
 /***** Footer Section *****/
