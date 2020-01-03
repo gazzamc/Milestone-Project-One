@@ -23,12 +23,13 @@ form {
     color: #e63900
 }
 
-form .btn {
+form .btn, #modelBtn {
     color:#fff;
     background-color: #e63900;
+    border-color: #000;
 }
 
-form .btn:active {
+form .btn:active, #modelBtn:active {
     color:#fff;
     background-color: #000;
 }
