@@ -154,7 +154,7 @@ form .btn:active, #modelBtn:active {
     padding: 2% 0 2% 0;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (orientation: portrait){
     .testamonials{
         height: 50vh;
         padding-top: 3vh;

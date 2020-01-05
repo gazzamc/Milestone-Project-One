@@ -32,10 +32,14 @@ $(document).ready(function(){
 
                 $("#classes").removeClass("bgClassImg");
 
+            }
+            else if($(window).width() < 840 && window.orientation == 90){
+
+                $("#classes").removeClass("bgClassImg");
+
             } else if ($(window).width() >= 768){
 
                 $("#classes").addClass("bgClassImg");
-
             }
 
             if($(window).width() < 425){
