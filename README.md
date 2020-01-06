@@ -18,17 +18,34 @@ As a new member, I expect to see the gyms address, opening hours.
 ![Address Preview](https://github.com/gazzamc/Milestone-Project-One/raw/master/assets/images/addressScreen.PNG "Address Preview")
 
 #### Strategy
+
+My goal was to design a website that was simple to navigate but still had a modern feel to it. 
+I didn't want to overload the potential users with information so I opted to just provide enough with an option to seek more.
+
 #### Scope
+
+I wanted to provide new users with necessary information such as the gyms address, phone and a brief summary of the company. 
+As for existing users who may have wanted more information on classes that would be running, 
+I provided a section with the currently running classes, the days they were taking place and a brief description of the class.
+
 #### Structure
+I went with a hero image in the landing page and an inspirational quote with the Title/Gym name. 
+When scrolling down you get to the first section "Testamonials", this consists of previous/current members stories along with a name/image.
+Next section is the "Classes" section, this consists of cards with different classes, the days they take place and a brief description of it.
+Then we come to the "About" section, this provides a brief statement about the gym, the gyms address and opening times.
+Finally we come to the "Contact" form and the "Footer" where the user can contact the gym on their preferred social media or via the build-in form.
+
 #### Skeleton
 
-- [About Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/about_wireframe.pdf)
-- [Classes Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/classes_wireframe.pdf)
-- [Contact/Footer Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/contact_footer_wireframe.pdf)
-- [Testamonials Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/landing_wireframe.pdf)
 - [Landing/Home Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/testamonial_wireframe.pdf)
+- [Testamonials Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/landing_wireframe.pdf)
+- [Classes Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/classes_wireframe.pdf)
+- [About Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/about_wireframe.pdf)
+- [Contact/Footer Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/contact_footer_wireframe.pdf)
+
 
 #### Surface
+I went with a combination of Orange, White and Black. I thought it gave a nice mordern feel to the website and was easy on the eyes when viewing.
 
 ## Features
 I combined bootstraps carousel and cards to create a dynamic testamonial section. 
@@ -124,8 +141,8 @@ Then open index.html in your browser of choice.
 ### Media
 - The photos used in this site were obtained from [PixaBay](https://pixabay.com/) and [UnSplash](https://unsplash.com/).
     - [equipment.jpg](https://pixabay.com/photos/fitness-weight-lifting-dumbbells-375472/)
-    - [girl_back.jpg](https://pixabay.com/photos/training-rmuscles-back-shoulders-828741/)
-    - [gym-room.jpg](https://pixabay.com/photos/gym-room-fitness-sport-1180062/)
+    - [girlBack.jpg](https://pixabay.com/photos/training-rmuscles-back-shoulders-828741/)
+    - [gymRoom.jpg](https://pixabay.com/photos/gym-room-fitness-sport-1180062/)
     - [woman.jpg](https://unsplash.com/photos/PvOtA9AtBII)
     - [man.jpg](https://unsplash.com/photos/MObvDHLX3jI)
     - [man2.jpg](https://unsplash.com/photos/RDUjwic7yw4/)
