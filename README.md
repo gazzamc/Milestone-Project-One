@@ -7,12 +7,21 @@ classes currently running at the gym, the gyms address and opening times as well
 ## Demo
 You can try the live version of the website [Here](https://gazzamc.github.io/Milestone-Project-One/)
 
-![Hercules Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/HerculesPreview.gif?raw=true "Hercules Preview")
+![Hercules Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/herculesPreview.gif?raw=true "Hercules Preview")
 ## UX
 
 #### User Stories
 As an existing member, I expect to see currently running classes.  
+![Classes Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/classesScreen.png?raw=true "Classes Preview")
+
 As a new member, I expect to see the gyms address, opening hours.
+![Address Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/addressScreen.png?raw=true "Address Preview")
+
+#### Strategy
+#### Scope
+#### Structure
+#### Skeleton
+#### Surface
 
 ## Features
 I combined bootstraps carousel and cards to create a dynamic testamonial section. 
@@ -46,6 +55,8 @@ Right now i'm only using regex to check for a valid input with a @ sign in the e
 
 - [FontAwesome](https://fontawesome.com/)
     - My social media icons were from FontAwesome.
+
+- [Google Fonts](https://fonts.google.com/)
 
 
 ## Testing
