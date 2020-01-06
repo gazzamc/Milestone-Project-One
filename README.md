@@ -45,7 +45,7 @@ Finally we come to the "Contact" form and the "Footer" where the user can contac
 
 
 #### Surface
-I went with a combination of Orange, White and Black. I thought it gave a nice mordern feel to the website and was easy on the eyes when viewing.
+I went with a combination of Orange, White and Black. I thought it gave a nice modern feel to the website and was easy on the eyes when viewing.
 
 ## Features
 I combined bootstraps carousel and cards to create a dynamic testamonial section. 
@@ -57,7 +57,7 @@ It's also fixed to the top left of the screen so navigating back to the landing 
 I have a contact form with validation using both HTML/jQuery so the users can contact the gym. I also added a confirmation
 message with a modal after submitting the contact form.
 
-### Features Left to Implement
+### Features left to Implement
 In the future I would like to add a seperate section for the payment plans, 
 breakdown of the membership and any other commodities the gym provides to it's members.
 
