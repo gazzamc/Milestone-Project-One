@@ -12,10 +12,10 @@ You can try the live version of the website [Here](https://gazzamc.github.io/Mil
 
 #### User Stories
 As an existing member, I expect to see currently running classes.  
-![Classes Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/classesScreen.png?raw=true "Classes Preview")
+![Classes Preview](https://github.com/gazzamc/Milestone-Project-One/raw/master/assets/images/classesScreen.PNG "Classes Preview")
 
 As a new member, I expect to see the gyms address, opening hours.
-![Address Preview](https://github.com/gazzamc/Milestone-Project-One/blob/master/assets/images/addressScreen.png?raw=true "Address Preview")
+![Address Preview](https://github.com/gazzamc/Milestone-Project-One/raw/master/assets/images/addressScreen.PNG "Address Preview")
 
 #### Strategy
 #### Scope
