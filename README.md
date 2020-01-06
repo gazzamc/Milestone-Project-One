@@ -21,6 +21,13 @@ As a new member, I expect to see the gyms address, opening hours.
 #### Scope
 #### Structure
 #### Skeleton
+
+- [About Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/about_wireframe.pdf)
+- [Classes Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/classes_wireframe.pdf)
+- [Contact/Footer Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/contact_footer_wireframe.pdf)
+- [Testamonials Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/landing_wireframe.pdf)
+- [Landing/Home Wireframe](https://github.com/gazzamc/Milestone-Project-One/blob/master/wireframes/testamonial_wireframe.pdf)
+
 #### Surface
 
 ## Features
