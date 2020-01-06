@@ -37,7 +37,7 @@ form .btn:active, #modelBtn:active {
 /* Header */
 
 .bgImg {
-    background: url("../images/girl_back.jpg") no-repeat center center fixed;
+    background: url("../images/girlBack.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -164,7 +164,7 @@ form .btn:active, #modelBtn:active {
 /***** Classes Section *****/
 
 .bgClassImg{
-    background: url("../images/gym-room.jpg") no-repeat center center;
+    background: url("../images/gymRoom.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
