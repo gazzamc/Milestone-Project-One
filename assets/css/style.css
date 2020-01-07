@@ -73,23 +73,6 @@ form .btn:active, #modelBtn:active {
     text-shadow: none;
 }
 
-@media only screen and (min-width: 320px){
-    .jumbotron .page-header {
-        padding-top: 10vh;
-    }
-}
-
-/*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-@media only screen and (orientation:landscape) and (max-width: 1200px){
-    .jumbotron .page-header {
-        padding-top: 2%;
-    }
-
-    .jumbotron .lead {
-        padding-top: 2%;
-    }
-}
-
 .jumbotron .leadBtn .btn {
     font-weight: 200;
     color:#fff;
@@ -145,24 +128,10 @@ form .btn:active, #modelBtn:active {
     color: #e63900;
 }
 
-@media only screen and (min-width: 768px) {
-    .navbar-dark .navbar-nav .nav-link {
-        width: 12%;
-        padding: 1%;
-    }
-}
-
 /***** Testamonial Section *****/
 
 .testamonials h2 {
     padding: 2% 0 2% 0;
-}
-
-@media only screen and (min-width: 768px) and (orientation: portrait){
-    .testamonials{
-        height: 50vh;
-        padding-top: 3vh;
-    }
 }
 
 /***** Classes Section *****/
@@ -188,26 +157,9 @@ form .btn:active, #modelBtn:active {
     background-color: #000;
 }
 
-@media only screen and (min-width: 992px){
-    .bgClassImg .container .row{
-        padding-top: 5vh;
-    }
-
-    .bgClassImg .container h2 {
-        padding-top: 10vh;
-    }
-}
-
 /***** About Section *****/
 .about {
     padding: 5vh;
-}
-
-@media only screen and (min-width: 425px) and (orientation: portrait){
-    .about {
-        height: 55vh;
-        padding: 9vh;
-    }
 }
 
 .about h2 {
@@ -238,30 +190,6 @@ p.address {
     padding-top: 5vh;
 }
 
-@media only screen and (min-width: 320px){
-    .bgContactImg .container h2 {
-        padding-top: 10vh;
-    }
-}
-
-@media only screen and (min-width: 568px) and (orientation: landscape){
-    .bgContactImg{
-        height: 150vh;
-    }
-}
-
-@media only screen and (min-width: 640px) and (orientation: landscape){
-    .bgContactImg{
-        height: 130vh;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (orientation: landscape){
-    .bgContactImg{
-        height: 100vh;
-    }
-}
-
 /***** Footer Section *****/
 
 .fab {
@@ -288,4 +216,76 @@ footer.container{
 .elementOverShade {
     position: relative;
     z-index: 10;
+}
+
+/* Media Queries */
+/*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (min-width: 320px){
+    .jumbotron .page-header {
+        padding-top: 10vh;
+    }
+
+    .bgContactImg .container h2 {
+        padding-top: 10vh;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (orientation: portrait){
+    .about {
+        height: 55vh;
+        padding: 9vh;
+    }
+}
+
+@media only screen and (min-width: 568px) and (orientation: landscape){
+    .bgContactImg{
+        height: 150vh;
+    }
+}
+
+@media only screen and (min-width: 640px) and (orientation: landscape){
+    .bgContactImg{
+        height: 130vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+        width: 12%;
+        padding: 1%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait){
+    .testamonials{
+        height: 50vh;
+        padding-top: 3vh;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .bgClassImg .container .row{
+        padding-top: 5vh;
+    }
+
+    .bgClassImg .container h2 {
+        padding-top: 10vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+    .bgContactImg{
+        height: 100vh;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 1200px){
+    .jumbotron .page-header {
+        padding-top: 2%;
+    }
+
+    .jumbotron .lead {
+        padding-top: 2%;
+    }
 }
