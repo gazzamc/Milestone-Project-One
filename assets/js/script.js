@@ -39,7 +39,7 @@ $(document).ready(function(){
 
         $(window).resize(function(){
 
-            if($(window).width() < 840 && isLandscape){
+            if($(window).width() < 840 && isLandscape()){
 
                 $("#classes").removeClass("bgClassImg");
 
