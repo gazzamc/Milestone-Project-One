@@ -168,3 +168,5 @@ and this useful website for testing regex [Here](https://regexr.com/).
 [Here](https://stackoverflow.com/questions/30785642/jquery-detect-phone-orientation).
 
 - Changed the hamburger toggler colour using this example [Here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
+
+- Added scroll behaviour to CSS for a better user experience, Thanks to my mentor Aaron for pointing that out.
