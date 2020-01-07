@@ -77,6 +77,9 @@ Right now i'm only using regex to check for a valid input with a @ sign in the e
 - [JQuery](https://jquery.com)
     - I used **JQuery** to hide/show the modal when interacting with the form and do a simple validation. It's also used to add/remove classes depending on screen size.
 
+- [Javascript](https://www.javascript.com/)
+    - I used a **Javascript** function to check for screen orientation along with my jQuery.
+
 - [FontAwesome](https://fontawesome.com/)
     - My social media icons were from FontAwesome.
 
@@ -107,6 +110,8 @@ I also tested all links with target "_blank" to see if they did in fact open in 
 the navigation links to see if they brought me to the corresponding section.
 
 I had an issue with my jQuery not loading and was able to fix it my first calling the function.
+Fixed a bug with the jQuery code, where the orientation wasn't being updated and not running my else if statement in dev tools without a refresh to remove the background image, 
+using boolean function i was able to get this working as intended.
 
 ## Deployment
 The website was deployed/hosted on GitHub pages, the following is the process in which i took to deploy it.
@@ -158,5 +163,8 @@ and this useful website for testing regex [Here](https://regexr.com/).
 
 - Fixed an issue with my jQuery where it wasn't firing on first load, was fixed using this example 
 [Here](https://stackoverflow.com/questions/26524096/check-browser-width-after-resize-without-reload-javascript).
+
+- Fixed an issue where the jQuery wasn't getting the correct orientation in dev tools without a refresh, with the help of this example.
+[Here](https://stackoverflow.com/questions/30785642/jquery-detect-phone-orientation).
 
 - Changed the hamburger toggler colour using this example [Here](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)

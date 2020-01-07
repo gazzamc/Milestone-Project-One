@@ -1,3 +1,14 @@
+
+//https://stackoverflow.com/questions/30785642/jquery-detect-phone-orientation
+function isLandscape() {
+    if(window.innerWidth > window.innerHeight){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
 $(document).ready(function(){
 
     /** Modal Response */
@@ -28,12 +39,12 @@ $(document).ready(function(){
 
         $(window).resize(function(){
 
-            if($(window).width() < 768){
+            if($(window).width() < 840 && isLandscape){
 
                 $("#classes").removeClass("bgClassImg");
 
             }
-            else if($(window).width() < 840 && window.orientation == 90){
+            else if($(window).width() < 768){
 
                 $("#classes").removeClass("bgClassImg");
 
